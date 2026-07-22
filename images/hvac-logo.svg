@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Snowflake - blue -->
+  <g transform="translate(72, 65)" fill="#1a7bbf">
+    <!-- Vertical line -->
+    <rect x="12" y="0" width="8" height="48" rx="3"/>
+    <!-- Horizontal line -->
+    <rect x="0" y="18" width="32" height="8" rx="3"/>
+    <!-- Diagonal left -->
+    <rect x="3" y="5" width="8" height="32" rx="3" transform="rotate(-45 7 21)"/>
+    <!-- Diagonal right -->
+    <rect x="21" y="5" width="8" height="32" rx="3" transform="rotate(45 25 21)"/>
+    <!-- Branch tips -->
+    <rect x="0" y="0" width="6" height="6" rx="2" transform="rotate(45 3 3)"/>
+    <rect x="26" y="0" width="6" height="6" rx="2" transform="rotate(-45 29 3)"/>
+    <rect x="0" y="42" width="6" height="6" rx="2" transform="rotate(-45 3 45)"/>
+    <rect x="26" y="42" width="6" height="6" rx="2" transform="rotate(45 29 45)"/>
+  </g>
+  
+  <!-- Wavy lines - blue -->
+  <g fill="none" stroke="#1a7bbf" stroke-width="4" stroke-linecap="round">
+    <path d="M50,125 Q65,115 80,125 Q95,135 110,125"/>
+    <path d="M45,137 Q60,127 75,137 Q90,147 105,137"/>
+    <path d="M40,149 Q55,139 70,149 Q85,159 100,149"/>
+  </g>
+  
+  <!-- Flame - red -->
+  <g transform="translate(130, 90)">
+    <path d="M12,50 C4,50 0,38 0,30 C0,18 8,8 10,0 C12,8 20,18 20,30 C20,38 16,50 12,50Z" fill="#e63946"/>
+    <ellipse cx="12" cy="30" rx="4" ry="6" fill="#ff6b35"/>
+  </g>
+</svg>
