@@ -313,9 +313,11 @@ header .container {
   padding-top: 12px;
   padding-bottom: 12px;
 }
-.logo { display: flex; align-items: center; gap: 10px; }
+.logo { display: flex; align-items: center; gap: 10px; text-decoration: none; }
 .logo-img { height: 42px; width: auto; display: block; }
-@media (max-width: 768px) { .logo-img { height: 34px; } }
+.logo-text { font-size: 1.1rem; font-weight: 800; color: #0b2b4a; line-height: 1.2; }
+@media (max-width: 768px) { .logo-img { height: 34px; }
+  .logo-text { font-size: 0.95rem; } }
 nav a {
   color: #333;
   font-weight: 500;
@@ -798,7 +800,8 @@ footer ul li { margin-bottom: 6px; }
 <header>
   <div class="container">
     <a href="#home" class="logo">
-      <img src="/images/logo.png" alt="Bellevue Heating &amp; Cooling Services" class="logo-img" width="300" height="297">
+      <img src="images/logo.png" alt="" class="logo-img" width="200" height="198">
+      <span class="logo-text">Bellevue Heating &amp; Cooling Services</span>
     </a>
     <nav>
       <a href="#services">Services</a>
